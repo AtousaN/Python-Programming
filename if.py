@@ -1,5 +1,5 @@
 """
-#Exercise 012
+#E012
 first = int (input ('Enter a number: '))
 second = int (input ('Enter another number: '))
 if first > second :
@@ -10,7 +10,7 @@ else :
     print (second)
 """
 """
-#Exercise 013
+#E013
 number = int ( input('Enter a number under 20: '))
 if number < 20 :
     print ('Thank you')
@@ -18,7 +18,7 @@ else :
     print ('Too high')
 """
 """
-#Exercise 014
+#E014
 num = int ( input('Enter a number between 10 and 20: '))
 if 10 < num < 20:
     print ('Thank you')
@@ -26,7 +26,7 @@ else :
     print('Incorrect answer')
 """
 """
-#Exercise 015
+#E015
 colour = input('Enter your favourite colour: ')
 if colour == 'RED' or colour == 'red' or colour == 'Red' :
     print('I like red too')
@@ -34,7 +34,7 @@ else :
     print ('I do not like', colour, ', I prefer red')
 """
 """
-#Exercise 016
+#E016
 rainy = input ('Is it rainning? (Answer with yes or no) ')
 R = rainy.lower()
 if R == 'yes' :
@@ -48,7 +48,7 @@ else :
     print ('Enjoy your day')
 """
 """
-#Exercise 017
+#E017
 age = int( input('How old are you? '))
 if age >= 18 :
     print ('You can vote')
@@ -60,7 +60,7 @@ else :
     print ('You can go Trick-or-Treating')
 """
 """
-#Exercise 018
+#E018
 num = int( input('Enter a number: ') )
 if num <= 10 :
     print ('Too low')
@@ -70,7 +70,7 @@ else :
     print ('Too high')
 """
 """
-#Exercise 019
+#E019
 num = int( input('Enter 1, 2 or 3: ') )
 if num == 1 :
     print ('Thank you')
