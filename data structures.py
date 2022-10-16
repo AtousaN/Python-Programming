@@ -1,12 +1,12 @@
 """
-#Exercise 069
+#E069
 T1 = ('Iran', 'Germany', 'Japan', 'America', 'Canada')
 print (T1)
 country = input ('Enter one of the countries that have been shown: ')
 print (T1.index(country))
 """
 """
-#Exercise 070
+#E070
 T1 = ('Iran', 'Germany', 'Japan', 'America', 'Canada')
 print (T1)
 country = input ('Enter one of the countries that have been shown: ')
@@ -15,7 +15,7 @@ number = int( input('Enter a numbe between 0 and 4: '))
 print (T1[number])
 """
 """
-#Exercise 071
+#E071
 L1 = ['Tennis', 'Swimming']
 sport = input ('What is your favourite sport? ')
 sport = sport.capitalize()
@@ -24,7 +24,7 @@ L1.sort()
 print (L1)
 """
 """
-#Exercise 072
+#E072
 L1 = ['Math', 'Science', 'Art', 'History', 'Music', 'Geography']
 print ('Which of these subjects do not you like? ')
 print (L1)
@@ -33,7 +33,7 @@ L1.remove(dislike)
 print (L1)
 """
 """
-#Exercise 073
+#E073
 a = input('Your First Favourite Food: ')
 b = input('Your Second Favourite Food: ')
 c = input('Your Third Favourite Food: ')
@@ -51,14 +51,14 @@ L.sort()
 print(L)
 """
 """
-#Exercise 074
+#E074
 L1 = ['Red', 'Blue', 'Yellow', 'Orange', 'Pink', 'Purple', 'Green', 'Brown', 'Black', 'White' ]
 start = int( input('Enter a number between 0 and 4: ') )
 end = int( input('Enter a number between 5 and 9: ') )
 print (L1[(start+1):end])
 """
 """
-#Exercise 075
+#E075
 L1 = [100, 200, 300]
 for elem in L1 :
     print (elem)
@@ -69,7 +69,7 @@ else :
     print ('That is not in the list')
 """
 """
-#Exercise 076
+#E076
 Guest1 = input('Enter the names of first people you want to invite to a party: ')
 Guest2 = input('Enter the names of second people you want to invite to a party: ')
 Guest3 = input('Enter the names of third people you want to invite to a party: ')
@@ -86,7 +86,7 @@ while y_n == 'yes' :
 print ('The number of guests are: ', count)
 """
 """
-#Exercise 077
+#E077
 Guest1 = input('Enter the names of first people you want to invite to a party: ')
 Guest2 = input('Enter the names of second people you want to invite to a party: ')
 Guest3 = input('Enter the names of third people you want to invite to a party: ')
@@ -113,7 +113,7 @@ else :
     print (List)
 """
 """
-#Exercise 078
+#E078
 TV = ['Friends', '24', 'Downton Abbey', 'Sherlock']
 for elem in TV :
     print (elem)
@@ -123,7 +123,7 @@ TV.insert(position-1,show)
 print (TV)
 """
 """
-#Exercise 079
+#E079
 nums = []
 for i in range(3) :
     n = input('Enter a number: ')
