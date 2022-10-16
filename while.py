@@ -1,5 +1,5 @@
 """
-#Exercise 045 : dar surati k total akharin meghdar balaye 50 bashad
+#E045 : dar surati k total akharin meghdar balaye 50 bashad
 total = 0
 while total <= 50 :
     num = int( input('Enter a number: ') )
@@ -7,7 +7,7 @@ while total <= 50 :
     print ('The total is ', total)
 """
 """
-#Exercise 045 : dar surati k total akharin meghdar zire 50 bashad
+#E045 : dar surati k total akharin meghdar zire 50 bashad
 total = 0
 while total <= 50 :
     num = int( input('Enter a number: ') )
@@ -18,14 +18,14 @@ while total <= 50 :
     print ('The total is ', total)
 """
 """
-#Exercise 046
+#E046
 num = int( input('Enter a number: ') )
 while num <= 5 :
     num = int( input('Enter a number: ') )
 print('The last number you entered was a', num)
 """
 """
-#Exercise 047
+#E047
 first = int( input('Enter a number: ') )
 second = int( input('Enter another number: ') )
 Sum = first + second
@@ -39,7 +39,7 @@ while que == 'y' :
 print ('The total is: ', Sum)
 """
 """
-#Exercise 048
+#E048
 List = []
 count = 0
 name = input('Enter the name of whom you want to invite to the party: ')
@@ -59,7 +59,7 @@ print('You have', count, 'people coming to the party')
 print(List)
 """
 """
-#Exercise 049
+#E049
 compnum = 50
 count = 0
 num = int( input('Enter a number: ') )
@@ -73,7 +73,7 @@ while num != compnum :
 print('Well done, you took', count, 'attempts')
 """
 """
-#Exercise 050
+#E050
 num = int( input('Enter a number between 10 and 20: ') )
 while num < 10 or num > 20 :
     if num < 10 :
@@ -84,7 +84,7 @@ while num < 10 or num > 20 :
 print('Thank you')
 """
 """
-#Exercise 051
+#E051
 num = 10
 print('There are',num,'green bottles hanging on the wall,',
       num,'green bottles hanging on the wall, and if 1 green bottle should accidentally fall')
